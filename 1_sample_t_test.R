@@ -1,3 +1,8 @@
+'
+T test is a parametric test - the data is normally distributed. If the data is 
+not normally distributed we would use the Mann Whitney test
+'
+
 ? t.test
 
 'Creating dataset that is normally distributed'

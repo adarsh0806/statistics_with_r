@@ -1,4 +1,6 @@
-'parametric, 2 sample or population means can be compared.
+'
+Parametric test(data is normally distributed), 2 sample or population means 
+can be compared.
 
 We have a numeric outcome variable Y that we want to compare with a 
 categorical explanatory variable X (2 levels - e.g. yes vs no)'
@@ -19,7 +21,7 @@ H1: meant wt of cars with manual and auto transmissions is not the same
 - independent : paired=F'
 
 # outcome variable = mtcars$wt, always on the left side
-# explanatory varibale = mtcars$am, on the right side
+# explanatory varible = mtcars$am, on the right side
 t.test(mtcars$wt~mtcars$am, 
        alt="two.sided", 
        conf=0.95,
